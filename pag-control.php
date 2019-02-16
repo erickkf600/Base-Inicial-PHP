@@ -8,7 +8,7 @@
 
 
 	if (!file_exists($pagina)) {
-		throw new \Exception("ERRO 404");
+		return '404.php';
 	}
 
 	return $pagina;
