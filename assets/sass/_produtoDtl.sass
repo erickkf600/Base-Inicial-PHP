@@ -1,0 +1,53 @@
+.prodtlh
+  background-color: #fff
+  box-shadow:0px 0px 200px #c4c4c4
+  border-radius: 15px
+  top: 9rem
+  left: 0
+  right: 0
+  @extend %p-relative
+  padding: 20px
+
+.detalhes
+  @extend %d-flex
+  flex-direction: row
+  padding: 0
+  .imgProd
+    width: 60%
+    border-right: 1px solid rgba(0, 0, 0, 0.125)
+  .prodDetalhes
+    width: 40%
+    padding: 15px 15px 0 15px
+
+.imgProd .imgs
+  @extend %d-flex
+  flex-direction: row
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+  
+
+.imagem
+  @extend %d-flex
+  width: 100%
+  flex-direction: row
+  justify-content: center
+  align-items: flex-start
+  padding: 15px 0
+  cursor: zoom-in
+  img
+    width: 80%
+
+.thumbnails .thumb li
+  margin-bottom: 5px
+  cursor: pointer
+  @extend %p-relative
+  width: 70px
+  height: 55px
+  img
+    display: block
+    width: 100%
+    border-left: 3px #ffc107 solid  
+
+.lightbox
+  img
+    width: 100%
+  

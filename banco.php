@@ -1,7 +1,7 @@
 <?php
   function conexao(){
   	$host = "localhost";
-  	$banco = "infoco";
+  	$banco = "accio";
   	$utf8 = "utf8";
 	$user = "root";
 	$pwd = "";

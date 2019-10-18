@@ -1,0 +1,36 @@
+.ofertasSection
+  h1
+    font-family: 'Orbitron', sans-serif
+    color: #f00
+  @include celular
+    padding: 0
+    margin: 0
+.grid
+  margin-bottom: 1.5rem 
+  @include celular-md
+  margin-bottom: .4rem 
+  padding: .4rem  
+.linkCard
+  &:hover
+    text-decoration: none 
+    color: #000     
+#card
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2)
+  .card-content
+    padding: 10px 20px 0 20px
+  .titulo
+    max-width: 300px 
+    margin-bottom: 10px
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    font: 
+      size: 13px
+      weight: 600
+  &:hover
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.4) 
+  .preco
+    @include celular-md
+      font-size: 14px   
+    @include celular-s
+      font-size: 12px     
